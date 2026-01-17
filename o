@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EdgeLine Sports</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+      background: linear-gradient(135deg, #0b1220, #101b3a, #0b1220);
+      color: #ffffff;
+    }
+    header {
+      padding: 4rem 2rem 6rem;
+      text-align: center;
+      background: radial-gradient(1200px 400px at 50% -10%, #1f3cff55, transparent 60%);
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+      letter-spacing: 0.5px;
+    }
+    .tagline {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+    section {
+      background: #ffffff;
+      color: #111;
+      padding: 3rem 2rem;
+      max-width: 1100px;
+      margin: -4rem auto 2rem;
+      border-radius: 18px;
+      box-shadow: 0 25px 60px rgba(0,0,0,0.35);
+    }
+    .top-actions {
+      display: flex;
+      gap: 1rem;
+      justify-content: center;
+      margin-top: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .btn {
+      padding: 0.8rem 1.4rem;
+      border-radius: 999px;
+      border: none;
+      cursor: pointer;
+      font-weight: 700;
+      background: #1f3cff;
+      color: white;
+    }
+    .btn.secondary {
+      background: #e9ecff;
+      color: #1f3cff;
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+      gap: 1.5rem;
+      margin-top: 2rem;
+    }
+    .card {
+      background: #f6f7fb;
+      padding: 1.5rem;
+      border-radius: 14px;
+      border: 1px solid #e6e8f0;
+    }
+    .card h3 {
+      margin-top: 0;
+    }
+    .odds {
+      display: flex;
+      justify-content: space-between;
+      gap: 0.5rem;
+      margin-top: 0.75rem;
+    }
+    .odd {
+      flex: 1;
+      background: #ffffff;
+      border: 1px solid #dfe3ff;
+      border-radius: 10px;
+      padding: 0.6rem;
+      text-align: center;
+      font-weight: 700;
+      color: #1f3cff;
+    }
+    .badge {
+      display: inline-block;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      font-size: 0.75rem;
+      background: #eef1ff;
+      color: #1f3cff;
+      font-weight: 700;
+    }
+    footer {
+      max-width: 1100px;
+      margin: 2rem auto 3rem;
+      padding: 0 1rem;
+      opacity: 0.75;
+      font-size: 0.9rem;
+      text-align: center;
+    }
+    a { color: #1f3cff; text-decoration: none; font-weight: 600; }
+  </style>
+</head>
+<body>
+
+  <header>
+    <span class="badge">FREE • INFO ONLY</span>
+    <h1>EdgeLine Sports</h1>
+    <p class="tagline">Odds, analysis, and picks — no money required</p>
+    <div class="top-actions">
+      <button class="btn">Today’s Picks</button>
+      <button class="btn secondary">Live Odds</button>
+      <button class="btn secondary">Stats & Analysis</button>
+    </div>
+  </header>
+
+  <section>
+    <h2>🔥 Today’s Featured Matchups</h2>
+    <p>Updated odds and public betting trends. Educational and informational purposes only.</p>
+
+    <div class="grid">
+      <div class="card">
+        <h3>NBA • Lakers vs Celtics</h3>
+        <div class="odds">
+          <div class="odd">LAL +140</div>
+          <div class="odd">BOS -160</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>NFL • Chiefs vs Bills</h3>
+        <div class="odds">
+          <div class="odd">KC -120</div>
+          <div class="odd">BUF +110</div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>Soccer • Arsenal vs Chelsea</h3>
+        <div class="odds">
+          <div class="odd">ARS +105</div>
+          <div class="odd">CHE +250</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>📊 Why EdgeLine?</h2>
+    <div class="grid">
+      <div class="card">
+        <h3>Sharp Analysis</h3>
+        <p>Data-driven breakdowns, injury reports, and matchup insights.</p>
+      </div>
+      <div class="card">
+        <h3>No Sign‑Ups</h3>
+        <p>Free access. No deposits. No accounts.</p>
+      </div>
+      <div class="card">
+        <h3>All Sports</h3>
+        <p>NBA, NFL, MLB, NHL, Soccer, and more.</p>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <p><strong>Disclaimer:</strong> This site does not accept or process bets. All content is for educational and informational purposes only. Must be 21+ where applicable. Gamble responsibly.</p>
+    <p>Built with ❤️ using GitHub Pages</p>
+  </footer>
+
+</body>
+</html>
